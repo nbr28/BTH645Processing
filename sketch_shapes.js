@@ -1,8 +1,8 @@
 /* sketch_shape.js */
 
-var img;
+var testImg;
 function preload() {
-    img = loadImage('moon.png');
+    testImg = loadImage('moon.png');
   }
   
 
@@ -15,7 +15,7 @@ function draw() {
 
     noStroke();
 
-    image(img, 0, 0,40,40);
+    image(testImg, 0, 0);
     push();
     {
         fill(255, 204, 0);
